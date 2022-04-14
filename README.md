@@ -1,4 +1,4 @@
-# Proyecto SISTEMA DE GESTION DE MEDICINAS PARA LOS ADULTOS MAYORES
+# Proyecto APLICACIÓN DE GESTIÓN DE MEDICAMENTOS Y CITAS MÉDICAS
 ## G5-ADS-MD
 ![ADS_Prueba](https://miguelpaz.github.io/assets/images/markdownpreview.png)
 TRABAJO GRUPAL

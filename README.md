@@ -27,3 +27,25 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 #### 2.1.3. Diagrama de Casos de Uso del Negocio
 
 ![DCUN](DiagramaGeneralMCUN.png)
+
+#### 2.1.4. Especificaciones de Casos de uso del Negocio
+
+|Nombre        |   Gestión de Pedido|
+|-------------|-------------|
+|Descripción|TEste proceso comienza cuando con el cliente solicitando una cierta cantidad de prendas, si la cantidad de prendas solicitada está dentro del stock de la tienda se procede con la venta en caso contrario se procede a realizar una orden de pedido con un plazo mínimo de días para la entrega.|
+|Actores de negocio|Vendedor, Cliente|
+|Entradas|Ingreso de solicitud de pedido|
+|Entregables|Entrega del pedido del cliente|
+|Mejoras |Satisfacer la Necesidades de los clientes|
+
+##### Especificación de detalle nivel
+
+|NOMBRE DEL CASO DE USO        |   Gestión de Pedido|
+|-------------|-------------|
+|ACTOR |Vendedor, Cliente|
+|OBJETIVO|Satisfacer la Necesidades de los clientes|
+|BREVE DESCRIPCION|Este proceso tiene como finalidad aumentar las ventas y fidelizar a los clientes|
+|PRECONDICIONES|-La venta debe de ser mayor a 100 prendas -El requerimiento mínimo debe de ser 50 prendas-Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
+|FLUJO BASICO DE EVENTOS |    1. El vendedor recibe el requerimiento del cliente     2. El vendedor ingresa los datos del cliente     3. El vendedor informa sobre los plazos de entrega     4. El vendedor registra el pedido del cliente 5. Fin del proceso|
+|FLUJO ALTERNO|1. El vendedor verifica el stock en tienda. 1.1 Si hay stock en tienda se va al paso 3 2. El vendedor disuade al cliente con otros modelos en caso no haya en tienda 2.1 Si el cliente no acepta se va al paso 3 3. Si el vendedor no está conforme con los plazos de entrega se va al paso 5|
+|POSTCONDICIONES|Se le entrega una boleta de pedido.|

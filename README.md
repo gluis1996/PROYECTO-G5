@@ -26,4 +26,4 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 #### 2.1.3. Diagrama de Casos de Uso del Negocio
 
-![MGCUN](Diagrama General MCUN.png)
+![DCUN](DiagramaGeneralMCUN.png)

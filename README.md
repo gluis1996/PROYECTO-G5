@@ -107,7 +107,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 * RCUN -4: Gestión de Fabricación.
 * RCUN -5: Gestión de Entrega.
 
-![DA-GP](RCUN_MAN.png)
+![RCUN](RCUN_MAN.png)
 
 ### 2.3. Glosario de términos
 

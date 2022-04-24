@@ -1,7 +1,7 @@
 ## 2. Modelo De Negocio
 En el Negocio a investigar consta de dos procesos una de ellas es la producción de prendas que se ejecuta en base a la oferta y a la demanda de los productos con el fin de mantener abastecido al punto de venta en este caso seria una tienda de Cercado de Lima, el segundo proceso consta en la venta de estos productos ya sea por unidad o por mayor con la finalidad de llevar una gestión correcta de las ventas y tener un análisis de los productos más demandados, ya que el vendedor puedo efectuar la veta al por mayor como por unidad. 
 
-### 2.1.1 Modelo de Caso de Uso del Negocio
+### 2.1 Modelo de Caso de Uso del Negocio
 
 ![MGCUN](ModeloGeneraldeCUN.png)
 
@@ -75,3 +75,63 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega     2. El despachador ubica el pedido     3. El despachador empaca el producto final     4. El despachador registra la salida del producto 5. El despachador entrega el producto al cliente 6.  Fin del proceso|
 |FLUJO ALTERNO||
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
+
+### 2.2. Modelo de Análisis del Negocio
+#### 2.2.1. Lista de Trabajadores de Negocio
+
+|Nombre                     |Descripcion                                                                            |
+|---------------------------|---------------------------------------------------------------------------------------|
+|Vendedor                   |Trabajador del negocio que se encarga de gestionar el pedido del cliente.              |
+|Encargado de finanzas      |Trabajador que se encarga de la gestión de compra de materiales para la producción.    |
+|Encargado de producción    |Trabajadores que se encargan de realizar a fabricación de las prendas.                 |
+|Encargado de calidad       |Trabajadores que se encargar de verificar que toda la prenda tenga un buen acabado.    |
+|Encargado de distribución  |Trabajadores que se encargan de distribución ye entrega de los pedidos y los servicios.|
+
+#### 2.2.2. Lista de Entidades de Negocio
+
+**Origen:** I=Interna, generada por el propio negocio, E=Externa, generada externamente y usada por el negocio como dato o medio de comunicación; **Tipo:** P=Persistente, que almacena datos, F=Formulario o documento impreso
+
+|Nombre    |Descripcion                                                            |Origuen|Tipo|
+|----------|-----------------------------------------------------------------------|-------|----|
+|producto  |Instrumento de comercialización                                        |I      |P   |
+|cliente   |Persona que se                                                         |E      |P   |
+|Empleado  |Trabajadores que se encargan de realizar a fabricación de las prendas. |I      |P   |
+|Pedido    |Acto que realiza el cliente y que el empleado recibe para su ejecución.|E      |F   |
+|Proveedor |Agente externo al negocio que provee de materiales.                    |E      |F   |
+|Servicise |Agente externo que el requerimiento del negocio.                       |E      |P   |
+
+#### 2.2.2. Lista de Entidades de Negocio
+* RCUN -1: Gestión de Pedido.
+* RCUN -2: Gestión de Requerimiento de material.
+* RCUN -3: Gestión de abastecimiento.
+* RCUN -4: Gestión de Fabricación.
+* RCUN -5: Gestión de Entrega.
+
+![DA-GP](RCUN_MAN.png)
+
+### 2.3. Glosario de términos
+
+|Nombre          |Descripcion                                                                                                             |
+|----------------|------------------------------------------------------------------------------------------------------------------------|
+**A**                                                                                                                                     |
+|Análisis        |Es el proceso de dividir un tema complejo o sustancia en partes más pequeñas para obtener una mejor comprensión de él|
+|**C**                                                                                                                                    |
+|Contratista     |Trabajadores que se encargar de verificar que toda la prenda tenga un buen acabado.                                     |
+|**D**                                                                                                                                    |
+|Demanda         |Es una petición o solicitud de algo, especialmente si consiste en una exigencia o se considera un derecho.               |
+|**E**                                                                                                                                    |
+|Entregables     |Es el término entregable es utilizado en la gestión de proyectos para describir un objeto, tangible o intangible, como resultado del proyecto.|
+|**M**                                                                                                                                    |
+|MCUN            |Es el modelo de casos de uso de negocio describe los procesos de negocio de una empresa en términos de casos de uso del negocio y actores del negocio|
+|**O**                                                                                                                                    |
+|Oferta          |Es el Ofrecimiento para hacer o cumplir una cosa.                                                                       |
+|**P**                                                                                                                                    |
+|Procesos        |Es el Conjunto de fases sucesivas de un fenómeno o hecho complejo.                                                      |
+|Precondiciones  |Una precondición es una condición que ha de satisfacerse justo antes del comienzo de la ejecución de una porción de código.|
+|Postcondiciones |Una postcondición es una condición o predicado lógico que siempre debe cumplirse justamente después de la ejecución de una sección de código o de una operación.|
+
+### 2.4. Reglas de negocio
+
+|Codigo|Nombre|Descripcion|Caso de Uso|
+|------|------|-----------|-----------|
+|      |      |           |           |

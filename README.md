@@ -56,7 +56,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 ##### ECU Gestión de Entrega
 ###### Especificaiones de Alto Nivel
-|Nombre        |   Gestión de Pedido|
+|Nombre        |   Gestión de Entrega|
 |-------------|-------------|
 |Descripción|Este proceso se realiza cuando el pedido del cliente haya terminado la gestión de abastecimiento, por siguiente se busca el producto solicitado para ser empaquetado y finalmente entregado al cliente.|
 |Actores de negocio|Despachador, Cliente|

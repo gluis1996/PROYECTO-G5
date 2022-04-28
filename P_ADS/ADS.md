@@ -2,7 +2,7 @@
 
 * Razon Social : Creaciones y Confecciones
 * Ruc : 100786745010 
-* Direccion : 
+* Direccion : Javier Luna Pizarro 195-145 Cercado de Lima 15033
 * Tiempo de Actividad: 4 años
 * Inicio : 21/09/2018
 * Inscripcion : 21/09/2018

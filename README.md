@@ -93,6 +93,28 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO ALTERNO||
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 
+##### ECU Gestión de Abastecimiento
+###### Especificaiones de Alto Nivel
+|Nombre        |   Gestión de Abastecimiento|
+|-------------|-------------|
+|Descripción|Este proceso comienza cuando con la solicitud de requerimiento de material para la fabricación del pedido del cliente, se procede a contactar con los proveedores y planear una fecha de entrega de la materia prima para posteriormente recibir esta misma y pasar a gestión de fabricación.|
+|Actores de negocio|Proveedores, Gerente de Abastecimiento|
+|Entradas|Ingreso de solicitud de materiales de fabricación.|
+|Entregables|Entrega de los materiales de fabricación.|
+|Mejoras |Ser eficiente con la negociación de precios y fechas de entrega de los proveedores.|
+
+###### Especificación de detalle nivel
+
+|NOMBRE DEL CASO DE USO        |   Gestión de Abastecimiento|
+|-------------|-------------|
+|ACTOR |Proveedores, Gerente de Abastecimiento|
+|OBJETIVO|Ser eficiente con la negociación de precios y fechas de entrega de los proveedores.|
+|BREVE DESCRIPCION|Este proceso tiene como finalidad el abastecimiento de materia prima para la fabricación de los pedidos de los clientes|
+|PRECONDICIONES|-Gestión de requerimiento de materiales envía una solicitud de abastecimiento -El inventario es verificado para confirmar que no se cuenta con los materiales necesarios para la fabricación del pedido|
+|FLUJO BASICO DE EVENTOS |    1.   El gerente de abastecimiento recibe la solicitud de requerimiento de materiales 2. El gerente de abastecimiento negocia la entrega de los materiales con los proveedores 3. Los materiales son recibidos en la fecha acordada por almacén 4. El vendedor confirma el abastecimiento de materiales 5. Fin del proceso |
+|FLUJO ALTERNO|2.1 Si no se llega a un acuerdo con los proveedores se le comunica a gestión de entrega para una renegociación con el cliente 4.1 Si los materiales recibidos no cumplen con los requisitos se negocia un nuevo abastecimiento y se le comunica a gestión de entrega |
+|POSTCONDICIONES|Se entregan los materiales solicitados a gestión de fabricación|
+
 ### 2.2. Modelo de Análisis del Negocio
 #### 2.2.1. Lista de Trabajadores de Negocio
 

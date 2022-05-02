@@ -8,7 +8,8 @@
  * Mendoza De la Cruz Miguel Jhonatan
  * Gracia Llaguento, Juan Pedro
  * Diaz González Jefferson Anthony
-* Giovanni Amadeo Cuba Flores
+ * Giovanni Amadeo Cuba Flores
+ * Perez Granados Juan Diego
 
 ## 1.1 Resumen Ejecutivo
 

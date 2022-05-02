@@ -10,6 +10,7 @@
  * Diaz González Jefferson Anthony
 * Giovanni Amadeo Cuba Flores
 
+## 1.1 Resumen Ejecutivo
 
 
 ## 2. Modelo De Negocio

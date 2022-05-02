@@ -116,6 +116,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO ALTERNO|2.1 Si no se llega a un acuerdo con los proveedores se le comunica a gestión de entrega para una renegociación con el cliente 4.1 Si los materiales recibidos no cumplen con los requisitos se negocia un nuevo abastecimiento y se le comunica a gestión de entrega |
 |POSTCONDICIONES|Se entregan los materiales solicitados a gestión de fabricación|
 
+###### DA Gestion de Abastecimiento
 ![DA-GP](MODELO_ABASTECIMIENTO.png)
 
 ### 2.2. Modelo de Análisis del Negocio

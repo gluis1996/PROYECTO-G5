@@ -91,7 +91,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |BREVE DESCRIPCION|Este proceso tiene como finalidad aumentar las ventas y fidelizar a los clientes|
 |PRECONDICIONES|-La venta debe de ser mayor a 100 prendas -El requerimiento mínimo debe de ser 50 prendas-Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
 |FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega     2. El despachador ubica el pedido     3. El despachador empaca el producto final     4. El despachador registra la salida del producto 5. El despachador entrega el producto al cliente 6.  Fin del proceso|
-|FLUJO ALTERNO|| -El despachador ubica el producto. En caso no ubique el producto debe de realizar la consulta al area de fabricación. El despachador ubica el producto|
+|FLUJO ALTERNO| -El despachador ubica el producto. En caso no ubique el producto debe de realizar la consulta al area de fabricación. El despachador ubica el producto|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 ###### DA Gestion de Entrega
 ![Gestion de entrega](https://user-images.githubusercontent.com/103477648/167533609-55ff5847-5fb8-4856-9c6c-a6d5fff5ddb8.png)

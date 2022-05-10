@@ -93,6 +93,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega     2. El despachador ubica el pedido     3. El despachador empaca el producto final     4. El despachador registra la salida del producto 5. El despachador entrega el producto al cliente 6.  Fin del proceso|
 |FLUJO ALTERNO||
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
+###### DA Gestion de Entrega
 ![Gestion de entrega](https://user-images.githubusercontent.com/103477648/167533609-55ff5847-5fb8-4856-9c6c-a6d5fff5ddb8.png)
 
 ##### ECU Gestión de Abastecimiento

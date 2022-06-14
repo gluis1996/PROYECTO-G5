@@ -8,29 +8,63 @@
 
 # Software Sistema de gestión de producción y ventas de un taller de confección **Lolita**
 
-## Docente BERROCAL NAVARRO, RICHARD LEONARDO ORCID: 0000-0001-8718-3150
-
-### Equipo
+### **Docente** 
+#### BERROCAL NAVARRO, RICHARD LEONARDO ORCID: 0000-0001-8718-3150
+#
+### **Equipo**
  #### Gonzalo Valdez Luis Miguel
  #### Mendoza De la Cruz Miguel Jhonatan
  #### Gracia Llaguento, Juan Pedro
  #### Diaz González Jefferson Anthony
  #### Giovanni Amadeo Cuba Flores
+ #
+ #### **LIMA - PERU**
+ #### **2022**
+#
 
-## 1.1 Resumen Ejecutivo
+### **PORCENTAJE DE TRABAJO DEL EQUIPO**
 
-## 2. Modelo De Negocio
+| INTEGRANTES | PRIMER INFORME | SEGUNDO INFORME | INFORME FINAL
+---|:---:|:---:|:---:
+Gonzalo Valdez Luis Miguel | 100% | 100%
+Mendoza De la Cruz Miguel Jhonatan | 100% | 100%
+Gracia Llaguento, Juan Pedro | 100% | 0%
+Perez Granados, Juan Diego | 100% | 100%
+Diaz González Jefferson Anthony | 100% | 100%
+Giovanni Amadeo Cuba Flores | 100% | 100%
+#
+##  Resumen Ejecutivo
+**¿En qué consiste el proyecto?**
+El proyecto consiste en  una aplicación para la gestión de producción y venta de prendas de vestir , esta aplicación servirá para anotar los datos de producción y las ventas de los productos. , es muy fácil de utilizar.
+**¿Quienes somos?**
+Los miembros del equipo que han diseñado esta aplicación son los siguientes:
+-Cuba Flores Giovanni Amadeo
+-Diaz González Jefferson Anthony
+-Gonzalo Valdez Luis Miguel
+-Gracia Llaguento, Juan Pedro
+-Perez Granados, Juan Diego
+-Mendoza De la Cruz Miguel Jhonatan 
+## Introduccion
+Con la dinámica actual del mercado y los constantes cambios del ambiente competitivo, Se a plantado el  desarrollo de una aplicación para la gestión de producción y venta de prendas de vestir-gestión de producción y ventas de un taller de confección “lolita”. Es fácil de utilizar la cual estará dirigida a LOLITA y las pequeñas empresas textiles  que usan la manera antigua de llevar los datos de  su producción y venta de sus productos, la aplicación ayudará a optimizar el tiempo y llevar los datos de producción y venta.
+## 1. Estudio de Factibilidad
+Este estudio ayuda a un análisis específico o más claro de la economía y la forma viable de la inversión es por ello que obtiene el nombre de estudio de factibilidad o viabilidad. 
+Así mismo poder desarrollar un aplicativo donde esté enfocado a rubro textil para a si lograr ayudar a la productiva de negocios informales ya que en l mercado no hay aplicaciones similares lo cual es viable pues no existe mucha competencia y lograr captar mas establecimientos del rubro textil.
+
+### 1.1Factibilidad operativa y técnica: La visión del sistema
+Buscamos ser los creadores de oportunidades y facilitar el emprendimiento   de las mini empresas enfocadas al rubro textil ya que nuestro proyecto es innovador y beneficioso para todos aquellos que busquen un impulso, ayuda, ventaja estratégica para su negocio
+
+## **2. Modelo De Negocio**
 En el Negocio a investigar consta de dos procesos una de ellas es la producción de prendas que se ejecuta en base a la oferta y a la demanda de los productos con el fin de mantener abastecido al punto de venta en este caso seria una tienda de Cercado de Lima, el segundo proceso consta en la venta de estos productos ya sea por unidad o por mayor con la finalidad de llevar una gestión correcta de las ventas y tener un análisis de los productos más demandados, ya que el vendedor puedo efectuar la veta al por mayor como por unidad. 
 
 ![MGCUN](DA_EriksonPenker.png)
 ![MGCUN](DA.png)
 
-### 2.1 Modelo de Caso de Uso del Negocio
+### **2.1 Modelo de Caso de Uso del Negocio**
 
 ![MGCUN](ModeloGeneraldeCUN.png)
 
 
-#### 2.1.1. Lista de los Actores del Negocio
+#### **2.1.1. Lista de los Actores del Negocio**
 
 |Nombre        |   Descripcion|
 |-------------|-------------|
@@ -38,7 +72,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Proveedor|Agente externo que provee de material para la fabricación.|
 |Contratistas|Agente Externo que solicita los productos|
 
-#### 2.1.2. Lista de Casos de Uso del Negocio
+#### **2.1.2. Lista de Casos de Uso del Negocio**
 
 |Nombre        |   Descripcion|
 |-------------|-------------|
@@ -48,13 +82,13 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Gestión de Fabricación|Área que se encargar del corte y la distribución a las service|
 |Gestión de Entrega|Área que se encarga de entregar los pedidos al cliente|
 
-#### 2.1.3. Diagrama de Casos de Uso del Negocio
+#### **2.1.3. Diagrama de Casos de Uso del Negocio**
 
 ![DCUN](DiagramaGeneralMCUN.png)
 
-#### 2.1.4. Especificaciones de Casos de uso del Negocio
-##### ECU Gestion de Pedido
-###### Especificaiones de Alto Nivel
+#### **2.1.4. Especificaciones de Casos de uso del Negocio**
+##### **ECU Gestion de Pedido**
+##### **Especificaiones de Alto Nivel**
 |Nombre        |   Gestión de Pedido|
 |-------------|-------------|
 |Descripción|Este proceso comienza cuando con el cliente solicitando una cierta cantidad de prendas, si la cantidad de prendas solicitada está dentro del stock de la tienda se procede con la venta en caso contrario se procede a realizar una orden de pedido con un plazo mínimo de días para la entrega.|
@@ -63,7 +97,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Entregables|Entrega del pedido del cliente|
 |Mejoras |Satisfacer la Necesidades de los clientes|
 
-###### Especificación de detalle nivel
+##### **Especificación de detalle nivel**
 
 |NOMBRE DEL CASO DE USO        |   Gestión de Pedido|
 |-------------|-------------|
@@ -75,11 +109,11 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO ALTERNO|1. El vendedor verifica el stock en tienda. 1.1 Si hay stock en tienda se va al paso 3 2. El vendedor disuade al cliente con otros modelos en caso no haya en tienda 2.1 Si el cliente no acepta se va al paso 3 3. Si el vendedor no está conforme con los plazos de entrega se va al paso 5|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 
-###### DA Gestion de Pedido
+##### **DA Gestion de Pedido**
 ![DA-GP](DA_GestiondePedido.png)
 
-##### ECU Gestión de Entrega
-###### Especificaiones de Alto Nivel
+##### **ECU Gestión de Entrega**
+##### **Especificaiones de Alto Nivel**
 |Nombre        |   Gestión de Entrega|
 |-------------|-------------|
 |Descripción|Este proceso se realiza cuando el pedido del cliente haya terminado la gestión de abastecimiento, por siguiente se busca el producto solicitado para ser empaquetado y finalmente entregado al cliente.|
@@ -88,7 +122,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Entregables|Entrega del pedido del cliente|
 |Mejoras |Satisfacer la Necesidades de los clientes|
 
-###### Especificación de detalle nivel
+##### **Especificación de detalle nivel**
 
 |NOMBRE DEL CASO DE USO        |   Gestión de Entrega|
 |-------------|-------------|
@@ -99,11 +133,11 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega     2. El despachador ubica el pedido     3. El despachador empaca el producto final     4. El despachador registra la salida del producto 5. El despachador entrega el producto al cliente 6.  Fin del proceso|
 |FLUJO ALTERNO| -El despachador ubica el producto. En caso no ubique el producto debe de realizar la consulta al area de fabricación. El despachador ubica el producto|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
-###### DA Gestion de Entrega
+##### **DA Gestion de Entrega**
 ![Gestion de entrega](https://user-images.githubusercontent.com/103477648/167533609-55ff5847-5fb8-4856-9c6c-a6d5fff5ddb8.png)
 
-##### ECU Gestión de Abastecimiento
-###### Especificaiones de Alto Nivel
+##### **ECU Gestión de Abastecimiento**
+##### **Especificaiones de Alto Nivel**
 |Nombre        |   Gestión de Abastecimiento|
 |-------------|-------------|
 |Descripción|Este proceso comienza cuando con la solicitud de requerimiento de material para la fabricación del pedido del cliente, se procede a contactar con los proveedores y planear una fecha de entrega de la materia prima para posteriormente recibir esta misma y pasar a gestión de fabricación.|
@@ -112,7 +146,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Entregables|Entrega de los materiales de fabricación.|
 |Mejoras |Ser eficiente con la negociación de precios y fechas de entrega de los proveedores.|
 
-###### Especificación de detalle nivel
+##### **Especificación de detalle nivel**
 
 |NOMBRE DEL CASO DE USO        |   Gestión de Abastecimiento|
 |-------------|-------------|
@@ -124,11 +158,36 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO ALTERNO|2.1 Si no se llega a un acuerdo con los proveedores se le comunica a gestión de entrega para una renegociación con el cliente 4.1 Si los materiales recibidos no cumplen con los requisitos se negocia un nuevo abastecimiento y se le comunica a gestión de entrega |
 |POSTCONDICIONES|Se entregan los materiales solicitados a gestión de fabricación|
 
-###### DA Gestion de Abastecimiento
-![DA-GP](MODELO_ABASTECIMIENTO.png)
+##### **DA Gestion de Fabricacion**
+![DA-GA](DA_Abastecimiento.png)
 
-### 2.2. Modelo de Análisis del Negocio
-#### 2.2.1. Lista de Trabajadores de Negocio
+##### **ECU Gestión de Fabricacion**
+##### **Especificaiones de Alto Nivel**
+|Nombre        |   Gestión de Abastecimiento|
+|-------------|-------------|
+|Descripción|Este proceso se realiza la fabricación de los diseños de los productos y proceso, la planificación y el mantenimiento de las máquinas.|
+|Actores de negocio|Supervisor de producción,personal|
+|Entradas|Ingreso del material solicitado.|
+|Entregables|Productos ya terminado.|
+|Mejoras |Ser mas eficientes a la fabricación de los diseños de los productos.|
+
+##### **Especificación de detalle nivel**
+
+|NOMBRE DEL CASO DE USO        |   Gestión de Abastecimiento|
+|-------------|-------------|
+|ACTOR |Supervisor de fabricación,personal|
+|OBJETIVO|llegar al objetivo de producción con buena calidad.|
+|BREVE DESCRIPCION|Este proceso tiene como finalidad  la fabricación de los diferentes diseños de los productos|
+|PRECONDICIONES|La fabricación  debe de ser mayor a 120-Para la fabricación debe ser como mínimo 70 prendas-debe entregarse dentro del periodo de tiempo|
+|FLUJO BASICO DE EVENTOS |1. El supervisor realiza los pedidos de los materiales 2. El encargado de las máquinas de inicio 3. El en personal da el diseño al producto 4. El personal da por finalizado la producción |
+|FLUJO ALTERNO|Si no se llega a cumplir con el objetivo de producciónproduccion se comunica con el área de  entrega para realizar un plazo de tiempo para poder llegar al objetivo de fabricacion |
+|POSTCONDICIONES|se realiza entrega al área de entrega|
+
+##### **DA Gestion de Fabricacion**
+![DA-GP](DA_Produccion.png)
+
+### **2.2. Modelo de Análisis del Negocio**
+#### **2.2.1. Lista de Trabajadores de Negocio**
 
 |Nombre                     |Descripcion                                                                            |
 |---------------------------|---------------------------------------------------------------------------------------|
@@ -138,7 +197,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Encargado de calidad       |Trabajadores que se encargar de verificar que toda la prenda tenga un buen acabado.    |
 |Encargado de distribución  |Trabajadores que se encargan de distribución ye entrega de los pedidos y los servicios.|
 
-#### 2.2.2. Lista de Entidades de Negocio
+#### **2.2.2. Lista de Entidades de Negocio**
 
 **Origen:** I=Interna, generada por el propio negocio, E=Externa, generada externamente y usada por el negocio como dato o medio de comunicación; **Tipo:** P=Persistente, que almacena datos, F=Formulario o documento impreso
 
@@ -154,7 +213,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 ![RCUN](DC.png)
 
 
-#### 2.2.2. Lista de Entidades de Negocio
+#### **2.2.2. Lista de Entidades de Negocio**
 * RCUN -1: Gestión de Pedido.
 * RCUN -2: Gestión de Requerimiento de material.
 * RCUN -3: Gestión de abastecimiento.
@@ -163,7 +222,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 ![RCUN](RCUN_MAN.png)
 
-### 2.3. Glosario de términos
+### **2.3. Glosario de términos**
 
 |Nombre          |Descripcion                                                                                                             |
 |----------------|------------------------------------------------------------------------------------------------------------------------|
@@ -184,7 +243,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Precondiciones  |Una precondición es una condición que ha de satisfacerse justo antes del comienzo de la ejecución de una porción de código.|
 |Postcondiciones |Una postcondición es una condición o predicado lógico que siempre debe cumplirse justamente después de la ejecución de una sección de código o de una operación.|
 
-### 2.4. Reglas de negocio
+### **2.4. Reglas de negocio**
 
 |Codigo|Nombre|Descripcion|Caso de Uso|
 |------|------|-----------|-----------|

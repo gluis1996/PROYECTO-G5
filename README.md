@@ -1,15 +1,21 @@
-# UNIVERSIDAD CESAR VALLEJO FACULTAD DE INGENIERIA Escuela de Ingeniería de Sistemas
+# **DOCUMENTACION DEL PROYECTO**
+![UCV Logo](https://www.ucv.edu.pe/wp-content/themes/ucv/images/LogotipoUCV_Versi%c3%b3nLarga.png)
+## **FACULTAD DE INGENIERIA Y ARQUITECTURA**
+
+## **ESCUELA DE IGENIERÃA DE SISTEMAS**
+
+## **PROYECTO DE ANALISIS Y DISEÃ‘O DE SISTEMAS**
 
 # Software Sistema de gestión de producción y ventas de un taller de confección **Lolita**
 
 ## Docente BERROCAL NAVARRO, RICHARD LEONARDO ORCID: 0000-0001-8718-3150
-## Equipo
- * Gonzalo Valdez Luis Miguel
- * Mendoza De la Cruz Miguel Jhonatan
- * Gracia Llaguento, Juan Pedro
- * Diaz González Jefferson Anthony
- * Giovanni Amadeo Cuba Flores
- * Perez Granados Juan Diego
+
+### Equipo
+ #### Gonzalo Valdez Luis Miguel
+ #### Mendoza De la Cruz Miguel Jhonatan
+ #### Gracia Llaguento, Juan Pedro
+ #### Diaz González Jefferson Anthony
+ #### Giovanni Amadeo Cuba Flores
 
 ## 1.1 Resumen Ejecutivo
 

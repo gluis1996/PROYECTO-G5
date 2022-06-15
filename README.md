@@ -15,6 +15,7 @@
  #### Gonzalo Valdez Luis Miguel
  #### Mendoza De la Cruz Miguel Jhonatan
  #### Gracia Llaguento, Juan Pedro
+ #### Perez Granados, Juan Diego 
  #### Diaz González Jefferson Anthony
  #### Giovanni Amadeo Cuba Flores
  #
@@ -385,7 +386,7 @@ CC06 Generar boleta | el sitema al termino de cada venta  realizara una boleta d
 
 #### **3.2.3. Lista de Casos de Uso priorizados**
 
-Priorizacion de casos de uso del sistema | | | | | ||
+Priorizacion de casos de uso del sistema | | | | | | |
 ---|---|:---:|:---:|:---:|:---:|:---:|
  | | | 0,4 | 0,3 | 0,2 | 0,1
 **Actor** | **Caso de uso** | Complejidad | Precedencia | Premura | Riesgo | Total

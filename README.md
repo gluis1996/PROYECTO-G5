@@ -385,9 +385,9 @@ CC06 Generar boleta | el sitema al termino de cada venta  realizara una boleta d
 
 #### **3.2.3. Lista de Casos de Uso priorizados**
 
-Priorizacion de casos de uso del sistema | | | | | |||
----|---|:---:|:---:|:---:|:---:|:---:|:---:|
- | | | 0,4 | 0,3 | 0,2 | 0,1 |
+Priorizacion de casos de uso del sistema | | | | | ||
+---|---|:---:|:---:|:---:|:---:|:---:|
+ | | | 0,4 | 0,3 | 0,2 | 0,1
 **Actor** | **Caso de uso** | Complejidad | Precedencia | Premura | Riesgo | Total
 AS1_Vendedor | CC01_Logeo del vendedor   |x | | | |0,4
 AS2_Almacenero | CC02_Mostrar estado del producto | |x | | |0,3

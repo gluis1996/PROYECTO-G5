@@ -33,7 +33,58 @@ Perez Granados, Juan Diego | 100% | 100%
 Diaz González Jefferson Anthony | 100% | 100%
 Giovanni Amadeo Cuba Flores | 100% | 100%
 #
-##  Resumen Ejecutivo
+
+## **INDICE**
+
+[RESUMEN EJECUTIVO](./README.md#resumen-ejecutivo)
+
+[INTRODUCCION](./README.md#introduccion)
+
+[1. ESTUDIO DE FACTIBILIDAD](./README.md#1-estudio-de-factibilidad)
+
+[1.1Factibilidad operativa y técnica: La visión del sistema](./README.md#11factibilidad-operativa-y-técnica-la-visión-del-sistema)
+
+[2. MODELO DE NEGOCIO](./README.md#2-modelo-de-negocio)
+
+[2.1. MODELO DE CASO DE USO DEL NEGOCIO](./README.md#21-modelo-de-caso-de-uso-del-negocio)
+
+[2.1.1. LISTA DE LOS ACTORES DEL NEGOCIO](./README.md#211-lista-de-los-actores-del-negocio)
+
+[2.1.2. LISTA DE LOS CASOS DE USO DEL NEGOCIO](./README.md#212-lista-de-casos-de-uso-del-negocio)
+
+[2.1.3. DIAGRAMA DE CASOS DE USO DEL NEGOCIO](./README.md#213-diagrama-de-casos-de-uso-del-negocio)
+
+[2.1.4. ESPECIFICACIONES DE CASOS DE USO DEL NEGOCIO](./README.md#214-especificaciones-de-casos-de-uso-del-negocio)
+
+[2.2. MODELO DE ANÃLISIS DEL NEGOCIO](./README.md#22-modelo-de-análisis-del-negocio)
+
+[2.2.1. LISTA DE TRABAJADORES DE NEGOCIO](./README.md#221-lista-de-trabajadores-de-negocio)
+
+[2.2.2. LISTA DE ENTIDADES DE NEGOCIO](./README.md#222-lista-de-entidades-de-negocio)
+
+[2.2.3. REALIZACION DE CASOS DE USO DEL NEGOCIO](#223-realizaciÃ³n-de-casos-de-uso-del-negocio)
+
+[2.2.4. DIAGRAMA DE ACTIVIDADES](#225-realizaciÃ³n-de-clases-de-dominio)
+
+[2.2.5. REALIZACION DE CLASES DE DOMINIO](#225-realizaciÃ³n-de-clases-de-dominio)
+
+[2.3. GLOSARIO DE TERMINOS](./README.md#23-glosario-de-términos)
+
+[2.4. REGLAS DE NEGOCIO](./README.md#24-reglas-de-negocio)
+[3. CAPTURA DE REQUERIMIENTOS](./README.md#3-captura-de-requerimientos)
+[3.1. Fuentes de obtención de requerimiento](./README.md#31fuentes-de-obtención-de-requerimientos)
+[3.1.1. INFORME DE ENTREVISTAS O MATERIAL TÉCNICO](./README.md#311-informe-de-entrevistas-o-material-técnico)
+[3.1.2. MATRIZ DE ACTIVIDADES Y REQUERIMIENTOS](./README.md#312-matriz-de-actividades-y-requerimientos)
+[3.2. MODELO DE CASOS DE USO](./README.md#32-modelo-de-casos-de-uso)
+[3.2.1. LISTA DE ACTORES DEL SISTEMA](./README.md#321-lista-de-actores-del-sistema)
+[3.2.2. LISTA DE CASOS DE USO DEL SISTEMA](./README.md#322-lista-de-casos-de-uso-del-sistema)
+[3.2.3. LISTA DE CASOS DE USO PRIORIZADOS](./README.md#323-lista-de-casos-de-uso-priorizados)
+[3.2.4. DIAGRAMAS DE CASO DE USO DEL SISTEMA](./README.md#324-diagramas-de-caso-de-uso-del-sistema)
+[3.2.5. ESPECIFICACIONES DE REQUERIMIENTOS DE SOFTWARE](./README.md#325-especificaciones-de-requerimientos-de-software)
+[3.2.6. ESPECIFICACIONES DE CASOS DE USO](./README.md#326-especificaciones-de-casos-de-uso)
+
+## Resumen Ejecutivo
+
 **¿En qué consiste el proyecto?**
 El proyecto consiste en  una aplicación para la gestión de producción y venta de prendas de vestir , esta aplicación servirá para anotar los datos de producción y las ventas de los productos. , es muy fácil de utilizar.
 **¿Quienes somos?**
@@ -43,17 +94,21 @@ Los miembros del equipo que han diseñado esta aplicación son los siguientes:
 -Gonzalo Valdez Luis Miguel
 -Gracia Llaguento, Juan Pedro
 -Perez Granados, Juan Diego
--Mendoza De la Cruz Miguel Jhonatan 
+-Mendoza De la Cruz Miguel Jhonatan
 ## **Introduccion**
+
 Con la dinámica actual del mercado y los constantes cambios del ambiente competitivo, Se a plantado el  desarrollo de una aplicación para la gestión de producción y venta de prendas de vestir-gestión de producción y ventas de un taller de confección “lolita”. Es fácil de utilizar la cual estará dirigida a LOLITA y las pequeñas empresas textiles  que usan la manera antigua de llevar los datos de  su producción y venta de sus productos, la aplicación ayudará a optimizar el tiempo y llevar los datos de producción y venta.
 ## **1. Estudio de Factibilidad**
-Este estudio ayuda a un análisis específico o más claro de la economía y la forma viable de la inversión es por ello que obtiene el nombre de estudio de factibilidad o viabilidad. 
+
+Este estudio ayuda a un análisis específico o más claro de la economía y la forma viable de la inversión es por ello que obtiene el nombre de estudio de factibilidad o viabilidad.
 Así mismo poder desarrollar un aplicativo donde esté enfocado a rubro textil para a si lograr ayudar a la productiva de negocios informales ya que en l mercado no hay aplicaciones similares lo cual es viable pues no existe mucha competencia y lograr captar mas establecimientos del rubro textil.
 
 ### 1.1Factibilidad operativa y técnica: La visión del sistema
+
 Buscamos ser los creadores de oportunidades y facilitar el emprendimiento   de las mini empresas enfocadas al rubro textil ya que nuestro proyecto es innovador y beneficioso para todos aquellos que busquen un impulso, ayuda, ventaja estratégica para su negocio
 
 ## **2. Modelo De Negocio**
+
 En el Negocio a investigar consta de dos procesos una de ellas es la producción de prendas que se ejecuta en base a la oferta y a la demanda de los productos con el fin de mantener abastecido al punto de venta en este caso seria una tienda de Cercado de Lima, el segundo proceso consta en la venta de estos productos ya sea por unidad o por mayor con la finalidad de llevar una gestión correcta de las ventas y tener un análisis de los productos más demandados, ya que el vendedor puedo efectuar la veta al por mayor como por unidad. 
 
 ![MGCUN](DA_EriksonPenker.png)
@@ -62,7 +117,6 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 ### **2.1 Modelo de Caso de Uso del Negocio**
 
 ![MGCUN](ModeloGeneraldeCUN.png)
-
 
 #### **2.1.1. Lista de los Actores del Negocio**
 
@@ -110,10 +164,13 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 
 ##### **DA Gestion de Pedido**
+
 ![DA-GP](DA_GestiondePedido.png)
 
 ##### **ECU Gestión de Entrega**
+
 ##### **Especificaiones de Alto Nivel**
+
 |Nombre        |   Gestión de Entrega|
 |-------------|-------------|
 |Descripción|Este proceso se realiza cuando el pedido del cliente haya terminado la gestión de abastecimiento, por siguiente se busca el producto solicitado para ser empaquetado y finalmente entregado al cliente.|
@@ -134,6 +191,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |FLUJO ALTERNO| -El despachador ubica el producto.</br>En caso no ubique el producto debe de realizar la consulta al area de fabricación.</br> El despachador ubica el producto|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 ##### **DA Gestion de Entrega**
+
 ![Gestionentrega](ECUGestiónEntrega.png)
 
 ##### **ECU Gestión de Abastecimiento**
@@ -159,10 +217,13 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |POSTCONDICIONES|Se entregan los materiales solicitados a gestión de fabricación|
 
 ##### **DA Gestion de Fabricacion**
+
 ![DA-GA](DA_Abastecimiento.png)
 
 ##### **ECU Gestión de Fabricacion**
+
 ##### **Especificaiones de Alto Nivel**
+
 |Nombre        |   Gestion de Fabricacion|
 |-------------|-------------|
 |Descripción|Este proceso se realiza la fabricación de los diseños de los productos y proceso, la planificación y el mantenimiento de las máquinas.|
@@ -212,8 +273,8 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 ![RCUN](DC.png)
 
-
 #### **2.2.2. Lista de Entidades de Negocio**
+
 * RCUN -1: Gestión de Pedido.
 * RCUN -2: Gestión de Requerimiento de material.
 * RCUN -3: Gestión de abastecimiento.
@@ -422,4 +483,3 @@ Flujo basico | El Actor despliega la ventana ventas de la tienda</br>El actor re
 Flujo Alternativo | Los datos de la venta están incompletos
 Pre condiciones | El actor debe estar registrado en el sistema
 Post condiciones | Boleta generada con éxito
-

@@ -4,7 +4,7 @@
 
 ## **ESCUELA DE IGENIERÃA DE SISTEMAS**
 
-## **PROYECTO DE ANALISIS Y DISEÃ‘O DE SISTEMAS**
+## **PROYECTO DE ANALISIS Y DISEÑO DE SISTEMAS**
 
 # Software Sistema de gestión de producción y ventas de un taller de confección **Lolita**
 
@@ -44,9 +44,9 @@ Los miembros del equipo que han diseñado esta aplicación son los siguientes:
 -Gracia Llaguento, Juan Pedro
 -Perez Granados, Juan Diego
 -Mendoza De la Cruz Miguel Jhonatan 
-## Introduccion
+## **Introduccion**
 Con la dinámica actual del mercado y los constantes cambios del ambiente competitivo, Se a plantado el  desarrollo de una aplicación para la gestión de producción y venta de prendas de vestir-gestión de producción y ventas de un taller de confección “lolita”. Es fácil de utilizar la cual estará dirigida a LOLITA y las pequeñas empresas textiles  que usan la manera antigua de llevar los datos de  su producción y venta de sus productos, la aplicación ayudará a optimizar el tiempo y llevar los datos de producción y venta.
-## 1. Estudio de Factibilidad
+## **1. Estudio de Factibilidad**
 Este estudio ayuda a un análisis específico o más claro de la economía y la forma viable de la inversión es por ello que obtiene el nombre de estudio de factibilidad o viabilidad. 
 Así mismo poder desarrollar un aplicativo donde esté enfocado a rubro textil para a si lograr ayudar a la productiva de negocios informales ya que en l mercado no hay aplicaciones similares lo cual es viable pues no existe mucha competencia y lograr captar mas establecimientos del rubro textil.
 
@@ -248,3 +248,97 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |Codigo|Nombre|Descripcion|Caso de Uso|
 |------|------|-----------|-----------|
 |      |      |           |           |
+
+## **3. Captura de Requerimientos**
+
+### **3.1.Fuentes de obtención de requerimientos**
+
+#### **3.1.1. Informe de entrevistas o material técnico**
+
+Nombre de  del proyecto gestión de producción y ventas de un taller de confección.En la entrevista realizada al dueño del taller tiene como objetivo recolectar información para los requerimientos para la gestión de su producción
+
+Responda segun sea conveniente para usted las siguientes preguntas
+
+1.¿Qué proceso realiza manualmente que necesiten que se automaticen?
+
+* Registro de la materia prima
+* Registro de la cantidad de los productos realizados
+* Registro de productos dañados
+* Registro de productos salidos a venta
+
+2.¿que necesita que el sistema realice ?
+
+* realizar un listado de la cantidad de materia prima ingreso en el mes
+* un listado de los productos realizados
+* listado de los productos dañados
+
+3.¿que beneficios cree usted que obtendría al automatizar los procesos mencionados?
+
+Generalmente los procesos mencionados requieren tiempo ya que se realiza de manera manual pero si estos procesos se automatizan se podrá realizar las entregas de los productos de manera mas rápida y a tiempo a su vez también obtendremos todos los listados detallado de los materiales.
+
+#### **3.1.2. Matriz de Actividades y Requerimientos**
+
+Procesos del negocio | Actividad del negocio | Responsables del negocio | Requerimiento | Casos de uso del sistema | Actores del sistema
+---|---|---|---|---|---
+Registra Ventas | El cliente realiza un Pedido Al vendedor | Cliente | Necesisto que el sistema perimita registrar la sesion del vendedor | CUS1_Logeo del vendedor | AS1_Vendedor
+...| El revisa el stok de pedido | Vendedor | RF-002 Necesisto que el sistema perimita ver el estado del los productos  | CUS2_Mostrar estado del poducto | AS2_Almacenero
+...| En caso que exista el pedido se vende  |...| RF-003 Necesisto que el sistema  envie y  actualize el stock | CUS3_Actualizar producto |...
+...| Entrega un ticket con la fecha de la cita |...| RF-004 Necesisto que el sistema registre las los datos del cliente | CUS4_Registrar cliente |...
+...|En caso que no exista se registra un pedido |...| RF-005 Necesisto que el sistema registre la venta y registre pedidos | CUS5_Registrar venta |...
+...|Se entrega un boleta de venta o pedido|...| RF-006 Necesisto que el sistema genere una boleta | CUS6_Generar Boletas |...
+
+### **3.2. Modelo de Casos de Uso**
+
+#### **3.2.1. Lista de Actores del Sistema**
+
+Lista de actores del sistema | |
+---|---
+Nombre | Descripcion
+AS1_Vendedor | Agente que interactúa en el sistema, este es un experto en la gestión comercial de la empresa y es quien realiza la acción de vender, es decir, acerca al cliente los productos o servicios que la empresa ofrece para que sean comprados a cambio del pago de un precio
+AS2_Almacenero | Agente que interactúa en el sistema, es el encargado de recibir los materiales y mercancías distribuidas en las dependencias del almacén; despacha los pedidos, registra en los libros el movimiento durante la jornada y redacta los partes de entrada y salida
+
+![LAS](listasActoresSistema.png)
+
+#### **3.2.2. Lista de Casos de Uso del Sistema**
+
+Lista de Casos de Uso del Sistema | |
+---|---
+Nombre | Descripcion
+CC01 Logeo de vendedor | El sistema autentifica al usuario y contraseña ingresados por el dueño del taller
+CC02 Mostrar estado del producto | el sistema verifica cada producto realizado y terminado si esta en buen estado o no  por lo contrario pasara a los productos en mal estado
+CC03 Actualizar producto | el sistema volverá a los productos en mal estado o dañados de nuevo a la producción de tal manera que se corrijan los productos
+CC04 Registrar cliente | el sistema registrara alos clientes y sus  pedidos te tal manera que les de una fecha de entrea de los productos pedidos
+CC05 Registrar venta  | el sistema una vez terminado los productos se realizara la entrega de los productos alos clientes
+CC06 Generar boleta | el sitema al termino de cada venta  realizara una boleta detallando todos los productos que se entregaran
+
+#### **3.2.3. Lista de Casos de Uso priorizados**
+
+#### **3.2.4. Diagramas de Caso de Uso del Sistema**
+
+![DCUS](DiagramasCasoUsoSistema.png)
+
+#### **3.2.5. ESPECIFICACIONES DE REQUERIMIENTOS DE SOFTWARE**
+
+**Requerimientos Funcionales**
+
+* El sistema verificará la identidad del vendedor al iniciar la session
+* El Sistema permitirá ver una lista del stock disponible de cada producto
+* El sistema permitirá filtrar los datos de los diferentes productos para analizar su disponibilidad
+* El sistema mostrará un mensaje si al momento de seleccionar el producto no se encuentra disponible a falta de stock
+* El sistema permitirá registrar, actualizar, eliminar los datos de:
+
+  * Clientes
+  * Ventas
+  * Pedidos
+  * Vendedores
+* El sistema permitirá generar una boleta en formato pdf de cada venta realizada.
+* El sistema controlará los accesos y solo permitirá el ingreso de usuarios autorizados.
+
+**Requerimientos no Funcionales**
+
+* Debe ser fácil de usar, con ayuda e interfaces intuitivas.
+* El ingreso al sistema estará restringido con contraseñas cifradas y usuarios definidos.
+* El sistema deberá funcionar en distintos tipos de sistemas operativos y plataformas de hardware.
+* El sistema debe soportar el manejo de gran cantidad de información durante su proceso.
+* El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario final.
+* El sistema no podrá ocupar más de 1 Gb de espacio en el disco.

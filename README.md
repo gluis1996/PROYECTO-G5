@@ -71,16 +71,27 @@ Giovanni Amadeo Cuba Flores | 100% | 100%
 [2.3. GLOSARIO DE TERMINOS](./README.md#23-glosario-de-términos)
 
 [2.4. REGLAS DE NEGOCIO](./README.md#24-reglas-de-negocio)
+
 [3. CAPTURA DE REQUERIMIENTOS](./README.md#3-captura-de-requerimientos)
+
 [3.1. Fuentes de obtención de requerimiento](./README.md#31fuentes-de-obtención-de-requerimientos)
+
 [3.1.1. INFORME DE ENTREVISTAS O MATERIAL TÉCNICO](./README.md#311-informe-de-entrevistas-o-material-técnico)
+
 [3.1.2. MATRIZ DE ACTIVIDADES Y REQUERIMIENTOS](./README.md#312-matriz-de-actividades-y-requerimientos)
+
 [3.2. MODELO DE CASOS DE USO](./README.md#32-modelo-de-casos-de-uso)
+
 [3.2.1. LISTA DE ACTORES DEL SISTEMA](./README.md#321-lista-de-actores-del-sistema)
+
 [3.2.2. LISTA DE CASOS DE USO DEL SISTEMA](./README.md#322-lista-de-casos-de-uso-del-sistema)
+
 [3.2.3. LISTA DE CASOS DE USO PRIORIZADOS](./README.md#323-lista-de-casos-de-uso-priorizados)
+
 [3.2.4. DIAGRAMAS DE CASO DE USO DEL SISTEMA](./README.md#324-diagramas-de-caso-de-uso-del-sistema)
+
 [3.2.5. ESPECIFICACIONES DE REQUERIMIENTOS DE SOFTWARE](./README.md#325-especificaciones-de-requerimientos-de-software)
+
 [3.2.6. ESPECIFICACIONES DE CASOS DE USO](./README.md#326-especificaciones-de-casos-de-uso)
 
 ## Resumen Ejecutivo

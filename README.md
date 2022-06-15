@@ -104,9 +104,9 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |ACTOR |Vendedor, Cliente|
 |OBJETIVO|Satisfacer la Necesidades de los clientes|
 |BREVE DESCRIPCION|Este proceso tiene como finalidad aumentar las ventas y fidelizar a los clientes|
-|PRECONDICIONES|-La venta debe de ser mayor a 100 prendas -El requerimiento mínimo debe de ser 50 prendas-Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
-|FLUJO BASICO DE EVENTOS |    1. El vendedor recibe el requerimiento del cliente     2. El vendedor ingresa los datos del cliente     3. El vendedor informa sobre los plazos de entrega     4. El vendedor registra el pedido del cliente 5. Fin del proceso|
-|FLUJO ALTERNO|1. El vendedor verifica el stock en tienda. 1.1 Si hay stock en tienda se va al paso 3 2. El vendedor disuade al cliente con otros modelos en caso no haya en tienda 2.1 Si el cliente no acepta se va al paso 3 3. Si el vendedor no está conforme con los plazos de entrega se va al paso 5|
+|PRECONDICIONES|La venta debe de ser mayor a 100 prendas </br>El requerimiento mínimo debe de ser 50 prendas</br>Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
+|FLUJO BASICO DE EVENTOS |    1. El vendedor recibe el requerimiento del cliente</br>2. El vendedor ingresa los datos del cliente</br>3. El vendedor informa sobre los plazos de entrega</br>4. El vendedor registra el pedido del cliente</br>5. Fin del proceso|
+|FLUJO ALTERNO|1. El vendedor verifica el stock en tienda.</br>1.1 Si hay stock en tienda se va al paso 3</br>2. El vendedor disuade al cliente con otros modelos en caso no haya en tienda</br>2.1 Si el cliente no acepta se va al paso 3</br>3. Si el vendedor no está conforme con los plazos de entrega se va al paso 5|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 
 ##### **DA Gestion de Pedido**
@@ -129,12 +129,12 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |ACTOR |Despachador, Cliente|
 |OBJETIVO|Satisfacer la Necesidades de los clientes|
 |BREVE DESCRIPCION|Este proceso tiene como finalidad aumentar las ventas y fidelizar a los clientes|
-|PRECONDICIONES|-La venta debe de ser mayor a 100 prendas -El requerimiento mínimo debe de ser 50 prendas-Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
-|FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega     2. El despachador ubica el pedido     3. El despachador empaca el producto final     4. El despachador registra la salida del producto 5. El despachador entrega el producto al cliente 6.  Fin del proceso|
-|FLUJO ALTERNO| -El despachador ubica el producto. En caso no ubique el producto debe de realizar la consulta al area de fabricación. El despachador ubica el producto|
+|PRECONDICIONES|La venta debe de ser mayor a 100 prendas</br>El requerimiento mínimo debe de ser 50 prendas</br>Se debe efectuar el pago total por la cantidad del stock en tienda + un 10% de lo faltante|
+|FLUJO BASICO DE EVENTOS |    1.  El despachador recibe la solicitud de entrega</br>2. El despachador ubica el pedido</br>3. El despachador empaca el producto final</br>4. El despachador registra la salida del producto</br>5. El despachador entrega el producto al cliente 6.  Fin del proceso|
+|FLUJO ALTERNO| -El despachador ubica el producto.</br>En caso no ubique el producto debe de realizar la consulta al area de fabricación.</br> El despachador ubica el producto|
 |POSTCONDICIONES|Se le entrega una boleta de pedido.|
 ##### **DA Gestion de Entrega**
-![Gestion de entrega](https://user-images.githubusercontent.com/103477648/167533609-55ff5847-5fb8-4856-9c6c-a6d5fff5ddb8.png)
+![Gestionentrega](ECUGestiónEntrega.png)
 
 ##### **ECU Gestión de Abastecimiento**
 ##### **Especificaiones de Alto Nivel**
@@ -153,9 +153,9 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 |ACTOR |Proveedores, Gerente de Abastecimiento|
 |OBJETIVO|Ser eficiente con la negociación de precios y fechas de entrega de los proveedores.|
 |BREVE DESCRIPCION|Este proceso tiene como finalidad el abastecimiento de materia prima para la fabricación de los pedidos de los clientes|
-|PRECONDICIONES|-Gestión de requerimiento de materiales envía una solicitud de abastecimiento -El inventario es verificado para confirmar que no se cuenta con los materiales necesarios para la fabricación del pedido|
-|FLUJO BASICO DE EVENTOS |    1.   El gerente de abastecimiento recibe la solicitud de requerimiento de materiales 2. El gerente de abastecimiento negocia la entrega de los materiales con los proveedores 3. Los materiales son recibidos en la fecha acordada por almacén 4. El vendedor confirma el abastecimiento de materiales 5. Fin del proceso |
-|FLUJO ALTERNO|2.1 Si no se llega a un acuerdo con los proveedores se le comunica a gestión de entrega para una renegociación con el cliente 4.1 Si los materiales recibidos no cumplen con los requisitos se negocia un nuevo abastecimiento y se le comunica a gestión de entrega |
+|PRECONDICIONES|Gestión de requerimiento de materiales envía una solicitud de abastecimiento</br>El inventario es verificado para confirmar que no se cuenta con los materiales necesarios para la fabricación del pedido|
+|FLUJO BASICO DE EVENTOS |1.El gerente de abastecimiento recibe la solicitud de requerimiento de materiales</br>2. El gerente de abastecimiento negocia la entrega de los materiales con los proveedores</br>3. Los materiales son recibidos en la fecha acordada por almacén</br>4. El vendedor confirma el abastecimiento de materiales</br>5. Fin del proceso |
+|FLUJO ALTERNO|2.1 Si no se llega a un acuerdo con los proveedores se le comunica a gestión de entrega para una renegociación con el cliente </br>4.1 Si los materiales recibidos no cumplen con los requisitos se negocia un nuevo abastecimiento y se le comunica a gestión de entrega |
 |POSTCONDICIONES|Se entregan los materiales solicitados a gestión de fabricación|
 
 ##### **DA Gestion de Fabricacion**
@@ -163,7 +163,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 ##### **ECU Gestión de Fabricacion**
 ##### **Especificaiones de Alto Nivel**
-|Nombre        |   Gestión de Abastecimiento|
+|Nombre        |   Gestion de Fabricacion|
 |-------------|-------------|
 |Descripción|Este proceso se realiza la fabricación de los diseños de los productos y proceso, la planificación y el mantenimiento de las máquinas.|
 |Actores de negocio|Supervisor de producción,personal|
@@ -173,13 +173,13 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 ##### **Especificación de detalle nivel**
 
-|NOMBRE DEL CASO DE USO        |   Gestión de Abastecimiento|
+|NOMBRE DEL CASO DE USO        |   Gestion de Fabricacion|
 |-------------|-------------|
 |ACTOR |Supervisor de fabricación,personal|
 |OBJETIVO|llegar al objetivo de producción con buena calidad.|
 |BREVE DESCRIPCION|Este proceso tiene como finalidad  la fabricación de los diferentes diseños de los productos|
 |PRECONDICIONES|La fabricación  debe de ser mayor a 120-Para la fabricación debe ser como mínimo 70 prendas-debe entregarse dentro del periodo de tiempo|
-|FLUJO BASICO DE EVENTOS |1. El supervisor realiza los pedidos de los materiales 2. El encargado de las máquinas de inicio 3. El en personal da el diseño al producto 4. El personal da por finalizado la producción |
+|FLUJO BASICO DE EVENTOS |1. El supervisor realiza los pedidos de los materiales</br> 2. El encargado de las máquinas de inicio</br> 3. El en personal da el diseño al producto</br> 4. El personal da por finalizado la producción |
 |FLUJO ALTERNO|Si no se llega a cumplir con el objetivo de producciónproduccion se comunica con el área de  entrega para realizar un plazo de tiempo para poder llegar al objetivo de fabricacion |
 |POSTCONDICIONES|se realiza entrega al área de entrega|
 
@@ -342,3 +342,84 @@ CC06 Generar boleta | el sitema al termino de cada venta  realizara una boleta d
 * El sistema debe soportar el manejo de gran cantidad de información durante su proceso.
 * El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario final.
 * El sistema no podrá ocupar más de 1 Gb de espacio en el disco.
+
+#### **3.2.6. ESPECIFICACIONES DE CASOS DE USO**
+
+Nombre | CU1_Logear al vendedor
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS1_Vendedor
+Iteracion |
+CU Relacionado | CU2_Mostrar estado del producto
+Breve Descripción | Permite identificar y validar las credenciales del vendedor, permitiendo el ingreso al sistema
+Flujo basico | El actor ingresa su usuario y contraseña</br>El actor selecciona la opción iniciar sesión</br>El sistema valida las credenciales en la base de datos</br>El sistema muestra el catálogo de productos con sus respectivas disponibilidades
+Flujo Alternativo | Las credenciales del actor no existe</br>Error al ingresar el usuario o contraseña
+Pre condiciones | El actor debe estar registrado en el sistema
+Post condiciones | Validación realizada con éxito
+
+Nombre | CU2_Mostrar estado del producto
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS1_Vendedor
+Iteracion |
+CU Relacionado | CU3_Actualizar Producto
+Breve Descripción | Permite confirmar la disponibilidad de un producto a vender y solicitar su re-stock en caso no esté disponible
+Flujo basico | El actor selecciona la opción de mostrar la lista de productos </br>El Sistema muestra la lista de productos que ofrece la tienda</br>El actor selecciona la opción de mostrar detalles en el producto seleccionado </br>El sistema muestra la disponibilidad del producto seleccionado</br>El vendedor confirma la disponibilidad del producto a vender
+Flujo Alternativo | El producto seleccionado se encuentra fuera de stock</br>El vendedor da click al botón de solicitor re-stock del producto</br>El Sistema crea una solicitud de re-stock del producto para la sección de almacenamiento
+Pre condiciones | El producto debe estar registrado en el sistema y tener su estado de disponibilidad actualizado
+Post condiciones | Confirmación de disponibilidad del producto
+
+Nombre | CU3_Actualizar Producto
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS2_Almacenero
+Iteracion |
+CU Relacionado | CU2_Mostrar estado del producto
+Breve Descripción | Permite actualizar el estado de disponibilidad del producto
+Flujo basico | El actor recibe una notificación solicitando un re-stock de producto</br>El actor realiza el proceso de re-stock del producto</br>El actor selecciona la opción de mostrar la lista de productos</br>El sistema muestra la lista de productos que ofrece la tienda</br>El actor selecciona la opción de editar el estado del producto</br>El actor escribe el nuevo estado del producto y selecciona confirmar</br>El sistema actualiza el estado del producto
+Flujo Alternativo | El producto requerido es imposible de reabastecer</br>El actor da click en la opción de suspender la venta del producto</br>El sistema oculta el producto de la lista de productos disponibles en la tienda
+Pre condiciones | El producto debe estar registrado como fuera de stock y ser solicitado al actor
+Post condiciones | Actualización del estado del producto
+
+Nombre | CU4_Registrar Cliente
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS1_Vendedor
+Iteracion |
+CU Relacionado | CU1_Logear al vendedor
+Breve Descripción | Permite registrar nuevos clientes a la tienda
+Flujo basico | El Actor despliega la ventana de clientes</br>El actor selecciona la opción de nuevo cliente</br>El actor ingresa los datos necesarios al formulario</br>El actor selecciona la opción guardar</br>El sistema registrará los datos del usuario a la base de datos</br>El sistema muestra la lista de los usuarios
+Flujo Alternativo | Los datos del cliente ya existe en el sistema</br>Los datos del cliente no están completos
+Pre condiciones | El actor debe estar logueado correctamente al sistema
+Post condiciones | Registro realizado con éxito
+
+Nombre | CU5_Registrar Venta
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS1_Vendedor
+Iteracion |
+CU Relacionado | CU2_Mostrar estado del producto
+Breve Descripción | Permite registrar nuevos ventas de la tienda
+Flujo basico | El actor selecciona cada producto a vender</br>El actor selecciona la opción de añadir al carrito en cada producto</br>El actor despliega la ventana del carrito</br>El actor selecciona la opción de realizar venta</br>El actor ingresa los datos necesarios al formulario</br>El actor selecciona la opción confirmar</br>El sistema registrará los datos de la venta en la base de datos</br>El sistema muestra la lista de las ventas
+Flujo Alternativo | Los datos de la venta están incompletos
+Pre condiciones | El actor y el cliente deben estar registrados en el sistema
+Post condiciones | Registro realizado con éxito
+
+Nombre | CU6_Generar Boleta
+---|---
+Tipo | Primario
+Autor | Juan Diego Perez
+Actores | AS2_Almacenero
+Iteracion |
+CU Relacionado | CU5_Registrar Venta
+Breve Descripción | Permite generar una boleta de venta
+Flujo basico | El Actor despliega la ventana ventas de la tienda</br>El actor realiza el filtrado para hallar la venta</br>El sistema muestra los detalles de la venta</br>El actor selecciona la opción generar boleta</br>El sistema exporta la boleta a pdf
+Flujo Alternativo | Los datos de la venta están incompletos
+Pre condiciones | El actor debe estar registrado en el sistema
+Post condiciones | Boleta generada con éxito
+

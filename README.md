@@ -2,7 +2,7 @@
 ![UCV Logo](https://www.ucv.edu.pe/wp-content/themes/ucv/images/LogotipoUCV_Versi%c3%b3nLarga.png)
 ## **FACULTAD DE INGENIERIA Y ARQUITECTURA**
 
-## **ESCUELA DE IGENIERÃA DE SISTEMAS**
+## **ESCUELA DE IGENIERIA DE SISTEMAS**
 
 ## **PROYECTO DE ANALISIS Y DISEÑO DE SISTEMAS**
 

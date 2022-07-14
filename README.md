@@ -27,12 +27,12 @@
 
 | INTEGRANTES | PRIMER INFORME | SEGUNDO INFORME | INFORME FINAL
 ---|:---:|:---:|:---:
-Gonzalo Valdez Luis Miguel | 100% | 100%
-Mendoza De la Cruz Miguel Jhonatan | 100% | 100%
-Gracia Llaguento, Juan Pedro | 100% | 0%
-Perez Granados, Juan Diego | 100% | 100%
-Diaz González Jefferson Anthony | 100% | 100%
-Giovanni Amadeo Cuba Flores | 100% | 100%
+Gonzalo Valdez Luis Miguel | 100% | 100% | 100%
+Mendoza De la Cruz Miguel Jhonatan | 100% | 100% | 100%
+Gracia Llaguento, Juan Pedro | 100% | 0% | 0%
+Perez Granados, Juan Diego | 100% | 100% | 100%
+Diaz González Jefferson Anthony | 100% | 100% | 100%
+Giovanni Amadeo Cuba Flores | 100% | 100% | 100%
 #
 
 ## **INDICE**

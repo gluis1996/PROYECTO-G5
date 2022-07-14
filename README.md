@@ -274,7 +274,7 @@ En el Negocio a investigar consta de dos procesos una de ellas es la producción
 
 **Origen:** I=Interna, generada por el propio negocio, E=Externa, generada externamente y usada por el negocio como dato o medio de comunicación; **Tipo:** P=Persistente, que almacena datos, F=Formulario o documento impreso
 
-|Nombre    |Descripcion                                                            |Origuen|Tipo|
+|Nombre    |Descripcion                                                            |Origen|Tipo|
 |----------|-----------------------------------------------------------------------|-------|----|
 |producto  |Instrumento de comercialización                                        |I      |P   |
 |cliente   |Persona que se                                                         |E      |P   |

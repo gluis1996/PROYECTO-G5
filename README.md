@@ -508,3 +508,7 @@ Flujo basico | El Actor despliega la ventana ventas de la tienda</br>El actor re
 Flujo Alternativo | Los datos de la venta están incompletos
 Pre condiciones | El actor debe estar registrado en el sistema
 Post condiciones | Boleta generada con éxito
+
+#### **PROTOTIPO**
+
+![p1](p1.png)

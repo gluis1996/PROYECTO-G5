@@ -515,3 +515,15 @@ Post condiciones | Boleta generada con éxito
 ![p2](p2.png)
 ![p3](p3.png)
 ![p4](P4.png)
+
+#### 3.4. DIAGRAMA DE CLASES DE DISEÑO
+
+![p1](p1.png)
+
+#### 3.5. DIAGRAMA DE PAQUETES
+
+![p1](p1.png)
+
+#### 3.6. DIAGRAMA DE SECUENCIA
+
+![p1](p1.png)

@@ -518,7 +518,7 @@ Post condiciones | Boleta generada con éxito
 
 #### 3.4. DIAGRAMA DE CLASES DE DISEÑO
 
-![p1](p1.png)
+![dsa1.jpeg](dsa1.jpeg)
 
 #### 3.5. DIAGRAMA DE PAQUETES
 

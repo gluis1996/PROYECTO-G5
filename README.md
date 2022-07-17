@@ -531,10 +531,13 @@ Post condiciones | Boleta generada con éxito
 #### 3.7. DIAGRAMA DE ESTADO
 
 Diagrama de estado Login del vendedor
+
 ![DS](DS.jpg)
 
 Diagrama de estado actualizar estado del producto
+
 ![DS](DS.jpg)
 
 Diagrama de estado Buscar producto
+
 ![DS](DS.jpg)

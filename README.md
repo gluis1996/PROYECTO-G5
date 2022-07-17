@@ -532,12 +532,12 @@ Post condiciones | Boleta generada con éxito
 
 Diagrama de estado Login del vendedor
 
-![DS](DS.jpg)
+![DL](DELOGIN.png)
 
 Diagrama de estado actualizar estado del producto
 
-![DS](DS.jpg)
+![DA](DEACTUALIZAR.png)
 
 Diagrama de estado Buscar producto
 
-![DS](DS.jpg)
+![DB](DEBUSCAR.png)

@@ -526,4 +526,4 @@ Post condiciones | Boleta generada con éxito
 
 #### 3.6. DIAGRAMA DE SECUENCIA
 
-![p1](p1.png)
+![DS](DS.jpg)
